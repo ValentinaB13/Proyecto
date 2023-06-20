@@ -1,0 +1,63 @@
+body{
+    background: url(../Img/papitas.webp);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font: oblique bold 120% cursive;
+    font-weight: bold; 
+
+}
+input{
+    background-color: rgb(168, 134, 224);
+}
+
+
+#login .card {
+    border: none;
+    border-radius: 0;
+    background-color: rgb(92, 138, 156);
+}
+
+#login .card-title {
+    margin-bottom: 1.5rem;
+}
+
+#login input[type="email"],
+#login input[type="password"]
+#login input[type="password"]  
+{
+    border-radius: 0;
+    border-color: var(--primary) !important;
+}
+
+#login .btn-primary {
+    background-color: var(--primary) !important;
+    border-color: var(--primary) !important;
+    border-radius: 0;
+}
+
+#login .btn-primary:hover {
+    background-color: var(--primary) !important;
+    border-color: var(--primary) !important;
+}
+
+hr {
+    border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;  
+}
+
+.pie-form {
+    font-size: 100%;
+    text-align: left;    
+    margin-top: 5px;
+}
+
+.pie-form a {
+    display: block;
+    text-decoration: none;
+    color: #000000;
+}
+
+.pie-form a:hover {
+    color: #ffffff;
+}
